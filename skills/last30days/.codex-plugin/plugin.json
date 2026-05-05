@@ -1,0 +1,43 @@
+{
+  "name": "last30days",
+  "version": "3.1.1",
+  "description": "Research any topic across Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and more sources.",
+  "author": {
+    "name": "Matt Van Horn",
+    "email": "mvanhorn@gmail.com",
+    "url": "https://github.com/mvanhorn"
+  },
+  "homepage": "https://github.com/mvanhorn/last30days-skill",
+  "repository": "https://github.com/mvanhorn/last30days-skill",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "reddit",
+    "twitter",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "trends",
+    "polymarket",
+    "github",
+    "hacker-news"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Last 30 Days",
+    "shortDescription": "Research recent discussion across social and web sources",
+    "longDescription": "Use Last 30 Days to research what people are saying, upvoting, sharing, and betting on across Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and web sources.",
+    "developerName": "Matt Van Horn",
+    "category": "Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/mvanhorn/last30days-skill",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": "Use Last 30 Days to research this topic from the last 30 days across Reddit, X, YouTube, and web.",
+    "brandColor": "#FF6B35"
+  }
+}
