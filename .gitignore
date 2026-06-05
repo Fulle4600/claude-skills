@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# Track these folders and files
+!.gitignore
+!README.md
+!commands/
+!commands/**
+!skills/
+!skills/**
